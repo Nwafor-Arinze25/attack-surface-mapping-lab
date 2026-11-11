@@ -1,0 +1,9 @@
+# Never commit secrets
+*.key
+*.pem
+id_rsa*
+*.token
+.env
+# Editor/OS junk
+*.swp
+.DS_Store
