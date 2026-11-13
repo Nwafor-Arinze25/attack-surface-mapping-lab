@@ -1,0 +1,27 @@
+# Nmap 7.991 scan initiated Fri Nov 13 06:47:14 2026 as: /usr/lib/nmap/nmap -sV -O -oN nmap/nmap_scan.txt 192.168.56.103
+Nmap scan report for 192.168.56.103
+Host is up (0.0019s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 10.2p1 Ubuntu 2ubuntu3.5 (Ubuntu Linux; protocol 2.0)
+MAC Address: 08:00:27:95:66:E2 (Oracle VirtualBox virtual NIC)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.991%E=4%D=11/13%OT=22%CT=1%CU=32394%PV=Y%DS=1%DC=D%G=Y%M=080027
+OS:%TM=6AF6F8D2%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10B%TI=Z%CI=Z%TS
+OS:=21)SEQ(SP=103%GCD=1%ISR=107%TI=Z%CI=Z%TS=21)SEQ(SP=106%GCD=1%ISR=10D%TI
+OS:=Z%CI=Z%II=I%TS=21)SEQ(SP=108%GCD=1%ISR=106%TI=Z%CI=Z%TS=21)SEQ(SP=FE%GC
+OS:D=1%ISR=10A%TI=Z%CI=Z%TS=21)OPS(O1=M5B4ST11NW8%O2=M5B4ST11NW8%O3=M5B4NNT
+OS:11NW8%O4=M5B4ST11NW8%O5=M5B4ST11NW8%O6=M5B4ST11)WIN(W1=FE88%W2=FE88%W3=F
+OS:E88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNW8%CC=Y%Q
+OS:=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%
+OS:W=0%S=A%A=Z%F=R%O=%RD=B1C2A1A3%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%
+OS:RD=B1C2A1A3%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=B1C2A1A3%Q=)T7(R=Y
+OS:%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=B1C2A1A3%Q=)U1(R=Y%DF=N%T=40%IPL=164%
+OS:UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov 13 06:47:30 2026 -- 1 IP address (1 host up) scanned in 16.19 seconds
